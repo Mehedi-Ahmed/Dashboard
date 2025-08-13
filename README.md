@@ -35,7 +35,7 @@ php artisan serve
 ```
 **Open http://127.0.0.1:8000 in your browser.**
 ## Database ##
-database name : dashboard_app
+database name : dashboard
 
 ## Author ##
 ----------------
