@@ -27,7 +27,13 @@ A simple Laravel 12 web application with **cookie-based authentication**. Users 
 ```bash
 git clone https://github.com/Mehedi-Ahmed/Dashboard
 cd dashboard
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate
+php artisan serve
 ```
+**Open http://127.0.0.1:8000 in your browser.**
 ## Database ##
 database name : dashboard_app
 
